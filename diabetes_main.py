@@ -45,7 +45,7 @@ pages_dict = {"Home": diabetes_home,
 st.sidebar.title('Navigation')
 user_choice = st.sidebar.radio("Go to", tuple(pages_dict.keys()))
 if user_choice == "Home":
-    home.app() 
+    diabetes_home.app(diabetes_df) 
 else:
     selected_page = pages_dict[user_choice]
     selected_page.app(diabetes_df) 
