@@ -11,7 +11,6 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import GridSearchCV  
 from sklearn import tree
 from sklearn.metrics import confusion_matrix, plot_confusion_matrix, classification_report
-import graphviz as graphviz
 from sklearn.tree import export_graphviz
 from io import StringIO
 from IPython.display import Image  
